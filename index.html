@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalkulator</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Hello! ^^</h1>
+    <div class="container">
+      <div class="calc">
+        <input type="text" id="inputext" placeholder="0">
+        <button onclick="clr()">AC</button>
+        <button onclick="del()">C</button>
+        <button onclick="calculate('%')">%</button>
+        <button onclick="calculate('/')">/</button>
+        <button onclick="calculate(1)">1</button>
+        <button onclick="calculate(2)">2</button>
+        <button onclick="calculate(3)">3</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate(4)">4</button>
+        <button onclick="calculate(5)">5</button>
+        <button onclick="calculate(6)">6</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate(7)">7</button>
+        <button onclick="calculate(8)">8</button>
+        <button onclick="calculate(9)">9</button>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('.')">.</button>
+        <button onclick="calculate(0)">0</button>
+        <button class="equal" onclick="Result()">=</button>
+      <script src="kalkulator.js"></script>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
